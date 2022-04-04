@@ -1,0 +1,11 @@
+Create a New Directory: mkdir 'directory name'
+Create a New File: touch 'file name'.extension
+Check Status of Branch: git status
+Adding things into Staging Area in Git: git add 'file name with extension'
+Unstaging Staged things: git restore --staged <file>
+Commiting Changes: git commit -m "Add 'file name w/ extension'"
+Checking the log/history of Branch and Repository: git log 
+Opening the Directory in Visual Studio Code: code .
+Discard Changes in Working Directory: git restore <file>
+Add ALL files in CURRENT Directory: git add .
+Pushing Work to GitHub: git push origin 'branch name' (usually just main if there's no other branch)
