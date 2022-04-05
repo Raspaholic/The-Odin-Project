@@ -1,5 +1,6 @@
 Create a New Directory: mkdir 'directory name'
 Create a New File: touch 'file name'.extension
+Cloning Repositories into Directories: git clone 'ssh url'
 Check Status of Branch: git status
 Adding things into Staging Area in Git: git add 'file name with extension'
 Unstaging Staged things: git restore --staged <file>
