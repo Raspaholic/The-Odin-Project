@@ -1,12 +1,51 @@
 Create a New Directory: mkdir 'directory name'
-Create a New File: touch 'file name'.extension
 Cloning Repositories into Directories: git clone 'ssh url'
+Display GitHub Repository URL: git remote -v
+
+Git Basics Order
+1. Create Repository in GitHub
+2. Click Green Code button on Repo, select SSH, copy SSH url
+(Make sure you're in your HOME FOLDER in Git Bash BEFORE next step)
+3. Create a new local directory in Git Bash: mkdir 'directory name'
+4. cd into new directory
+5. Clone GitHub repository: git clone 'SSH url' and press enter
+6. Check Repo URL is right: git remote -v
+7. DONE!!
+
+Create a New File: touch 'file name.extension'
 Check Status of Branch: git status
 Adding things into Staging Area in Git: git add 'file name with extension'
-Unstaging Staged things: git restore --staged <file>
 Commiting Changes: git commit -m "Add 'file name w/ extension'"
+Unstaging Staged things: git restore --staged <file>
 Checking the log/history of Branch and Repository: git log 
+Pushing Work to GitHub: git push origin 'branch name' (usually just main if there's no other branch)
+
+Using Git Workflow 
+1. Create New File: touch 'file name.extension'
+2. Check Status of folder: git status 
+3. Add file into Staging Area: git add 'file name.extension'
+4. Check Status of folder: git status
+5. Commit Staged file: git commit -m "Add 'file name.extension'
+6. Check Status of folder: git status
+7. Check log/history of Branch: git log
+8. Push Commit to GitHub Repository: git push origin 'branch name' (usually just main if there's no other branch)
+9. DONE!!
+
 Opening the Directory in Visual Studio Code: code .
 Discard Changes in Working Directory: git restore <file>
 Add ALL files in CURRENT Directory: git add .
-Pushing Work to GitHub: git push origin 'branch name' (usually just main if there's no other branch)
+
+Modify a File or Two
+1. cd into folder and open in VSCode: code .
+2. Make changes and CTRL + s 
+3. Check Status of folder/file: git status
+4. Add folder/file into Staging Area: gitt add 'file name.extension'
+5. Check Status of folder/file: git status
+6. Commit ALL file(s) in Staging Area with message:
+  git commit -m "Editted the file(s)"
+7. Check Status of folder/file: git status
+8. Check log/history of Branch: git log
+9. Push work to GitHub: git push origin 'branch name' (usually just main if there's no other branch)
+10. Check Status one more time: git status
+11. Finally Check GitHub for Repo
+12. DONE!!
