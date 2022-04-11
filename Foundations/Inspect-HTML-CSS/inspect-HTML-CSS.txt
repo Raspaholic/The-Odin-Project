@@ -7,3 +7,14 @@ you are already logged in to TOP you will not see the page shown below.
 If you want to stay logged in, use Incognito mode or your browser’s 
 equivalent to separately view the page.) 
 
+In the Elements pane, you can see the entire HTML structure of your 
+page. You can click on any of the elements in this pane to select that 
+specific element. Alternatively, you can click the blue-highlighted 
+icon shown below on the left, and hover over any element on the page. 
+When an element is selected, the Styles tab will show all the currently 
+applied styles, as well as any styles that are being overwritten 
+(indicated by a strikethrough of the text).
+
+The Styles pane also allows you to edit styles directly in the browser. 
+You can click inside of any individual selector to add a new rule or 
+click on an existing attribute or value to alter it. 
