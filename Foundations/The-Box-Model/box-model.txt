@@ -15,3 +15,8 @@ inside of it.
 to it.
 *border adds space (even if it’s only a pixel or two) between the 
 margin and the padding.
+
+Inline-block elements behave like inline elements, but with block-style 
+padding and margin. Inline-block is a useful tool to know about, but in 
+practice you’ll probably end up reaching for flexbox more often if 
+you’re trying to line up a bunch of boxes.

@@ -1,0 +1,14 @@
+Divs and spans give no particular meaning to their content. They are 
+just generic boxes that can contain anything. We can give an id or 
+class so we can target them for styling with CSS. Another use case we 
+will face regularly is grouping related elements under one parent 
+element to position them on the page correctly. Divs and spans provide 
+us with the ability to do this. 
+
+Div is a block-level element by default. It is commonly used as a 
+container element to group other elements. Divs allow us to divide the 
+page into different blocks and apply styling to those blocks.
+
+Span is an inline-level element by default. It is commonly used to 
+group text content and inline HTML elements so we can apply styling to 
+them.
