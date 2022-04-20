@@ -1,0 +1,19 @@
+.box {
+    display: flex;
+}
+.box div {
+    /* this selector selects all divs inside of .box*/
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 80px;
+    flex: 1 1 auto;
+}
+.one {
+
+}
+.two {
+
+}
+.three {
+
+}
